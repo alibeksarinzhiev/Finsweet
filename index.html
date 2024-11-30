@@ -10,6 +10,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sen:wght@400..800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<link rel="stylesheet" href="media.css">
 </head>
 <body>
     <header class="header">
@@ -26,7 +27,6 @@
             </div>
         </div>
     </header>
-
     <main>
         <section class="banner">
             <div class="banner__gradient"></div>
@@ -407,6 +407,7 @@
           autoplay: {
             delay: 1000,
         },
+       
         
         });
       </script>
@@ -418,6 +419,13 @@
           },
           slidesPerView: 4,
         spaceBetween: 32,
+        breakpoints:{
+            300:{
+                slidesPerView:1,
+                slidesPerView:0,
+            }
+        },
+        centeredSlidesBounds:true
         
         
         });

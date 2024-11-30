@@ -7,6 +7,7 @@
 .container{
     max-width: 1282px;
     margin: 0 auto;
+    padding: 0 40px;
 }
 .header a{
     text-decoration: none;
@@ -112,7 +113,7 @@ color: #232536;
     justify-content: space-between;
 }
 .allPosts__left{
-    width: 733px;
+    max-width: 733px;
 }
 .allPosts__box{
     padding: 32px;
@@ -161,7 +162,7 @@ a{
     font-family: 'Inter',sans-serif;
 }
 .allPosts__card{
-    width: 517px;
+    max-width: 517px;
     padding: 32px 116px 25px 32px;
 }
 .allPosts__card p{
@@ -190,12 +191,12 @@ color: #232536;
     align-items: flex-end;
 }
 .about__top{
-    width: 1061px;
+    width: 80%;
     background: #592ea9;
     height: 23px;
 }
 .about__yellow{
-    width: 843px;
+    width: 80%;
     background: #FFD050;
     height: 23px;
 }
